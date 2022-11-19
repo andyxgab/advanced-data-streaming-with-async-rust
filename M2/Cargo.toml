@@ -1,0 +1,17 @@
+[package]
+authors = ["Andrea Gabana derived from Claus Matzinger"]
+edition = "2018"
+name = "manning-lp-async-rust-project-1-m2"
+version = "0.2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+clap = {version = "3.1.8", features = ["derive"]}
+yahoo_finance_api = { version = "1.1" }
+async-std = { version = "1.11", features = ["attributes"] }
+async-trait = "0.1"
+log = "0.4.17"
+futures = "0.3.0"
+future-utils = "0.12.1"
